@@ -22,4 +22,12 @@ body {
     background-color: beige;
     width: 100%;
     align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.nav {
+    justify-content: space-between;
+    display: flex;
+    width: 70%;
 }
