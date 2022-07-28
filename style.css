@@ -16,6 +16,7 @@ body {
     flex-grow: 1;
 }
 
+
 .footer, .header {
     display: flex;
     background-color: beige;

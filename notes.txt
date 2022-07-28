@@ -1,0 +1,6 @@
+body has a flex with flex direction column
+header has a logo with two flex elements justify content space between
+content can be organized in different ways 
+try doing a content box with flex direction column
+    add individual flex boxes for the 3 seperate sections inside content
+footer
