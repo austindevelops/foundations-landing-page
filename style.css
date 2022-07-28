@@ -12,22 +12,43 @@ body {
 .content-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-grow: 1;
+    width: 100%;
 }
 
 
 .footer, .header {
     display: flex;
-    background-color: beige;
+    background-color: #1f2937;
     width: 100%;
     align-items: center;
     width: 100%;
     justify-content: center;
+    color: #e5e7eb;
+    height: 50px;
 }
 
 .nav {
     justify-content: space-between;
     display: flex;
     width: 70%;
+    align-items: center;
+}
+
+.cont1 {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.test {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
 }
