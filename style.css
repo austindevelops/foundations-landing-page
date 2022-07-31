@@ -81,7 +81,7 @@ a:link, a:visited {
 
 .topcenter {
     gap: 35px;
-    margin: 35px 0px;
+    margin: 35px 0px 70px;
     display: flex;
     width: 70%;
 }
@@ -108,11 +108,10 @@ a:link, a:visited {
     align-items: center;
 }
 
-/* 2nd content container */
+/* 2nd row */
 #boxcontainer {
     display: flex;
     gap: 10px;
-    border: red solid 2px;
     width: 60%;
     justify-content: space-between;
 }
@@ -121,7 +120,7 @@ h3 {
     color: #1f2937;
     font-size: 36px;
     font-weight: 900;
-    margin: 15px 0px;
+    margin: 25px 0px;
 }
 
 .second-row {
@@ -133,12 +132,77 @@ h3 {
     justify-content: space-between;
     gap: 10px;
     text-align: center;
+    margin-bottom: 50px;
+}
+
+.center {
+    width: 150px;
 }
 
 .imgbox {
     width: 150px;
     height: 150px;
-    background-color: grey;
-    border-radius: 4px;
-    border: solid red 4px;
+    border-radius: 10px;
+    border: solid #3882F6 4px;
+}
+
+/* third row */
+
+#third-row {
+    color: #1f2937;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote {
+    width: 60%;
+    text-align: center;
+    margin-top: 100px;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#thor {
+    text-align: right;
+    width: 55%;
+    margin-bottom: 100px;
+    font-weight: 700;
+}
+
+/* forth row */
+
+#forth-row {
+    display: flex;
+    justify-content: center;
+    margin: 75px 0px;
+}
+
+#ad {
+    width: 50%;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 50px 100px;
+    justify-content: space-between;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#ad-text {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#ad-button {
+    border: white solid 2px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    text-align: center;
+    width: 100px;
+    height: min-content;
 }
